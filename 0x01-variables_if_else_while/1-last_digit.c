@@ -24,7 +24,9 @@ int main(void)
 
 	/* your code goes there */
 
-	int lastDigit = n % 10;
+	int lastDigit;
+
+	lastDigit = n % 10;
 
 	if (lastDigit > 5)
 	{
