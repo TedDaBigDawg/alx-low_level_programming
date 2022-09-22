@@ -13,7 +13,7 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_puutchar(45);
+		_putchar(45);
 
 		j = n * -1;
 	}
