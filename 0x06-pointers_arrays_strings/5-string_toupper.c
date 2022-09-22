@@ -3,7 +3,7 @@
 /**
  * string_toupper - change all lowercase letters to uppercase
  *
- * @str: string to be changed
+ * @str: a pointer to the string to be changed
  * Return: a string
  */
 
