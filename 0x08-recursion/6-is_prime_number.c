@@ -40,15 +40,15 @@ int is_prime_number(int n)
 
 	i = 2;
 
-	if (num < 2)
+	if (n < 2)
 	{
 		return (0);
 	}
 
-	if (num == 2)
+	if (n == 2)
 	{
 		return (1);
 	}
 
-	return (_evaluate(num, i));
+	return (_evaluate(n, i));
 }
