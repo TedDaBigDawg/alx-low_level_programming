@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 		if (total >= coins[point])
 		{
 			value = (total / coins[point]);
-			change += aux;
+			change += value;
 			total -= coins[point] * value;
 		}
 
