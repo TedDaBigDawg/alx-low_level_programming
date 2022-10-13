@@ -41,7 +41,7 @@ void print_all(const char * const format, ...)
 				printf("(nil)");
 				break;
 			}
-			printf("%S", s);
+			printf("%s", s);
 			break;
 		} i++;
 	}
