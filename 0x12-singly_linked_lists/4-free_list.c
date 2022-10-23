@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * fre_list - frees a list_t list
+ * free_list - frees a list_t list
  *
  * @head: beginning of the linked list
  * Return: void
