@@ -9,7 +9,7 @@
 
 size_t print_listint_safe(const listint_t *head)
 {
-	unsigned int num = 0;
+	size_t num = 0;
 	long int differ;
 
 	while (head)
@@ -26,7 +26,7 @@ size_t print_listint_safe(const listint_t *head)
 		else
 		{
 			printf("-> [%p] %d\n", (void *)head->next, head->next->n);
-			break;
+			exit(98);
 		}
 
 	}
